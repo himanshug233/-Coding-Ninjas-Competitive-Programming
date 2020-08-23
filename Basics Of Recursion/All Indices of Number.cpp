@@ -30,8 +30,7 @@ int allIndexes(int input[], int size, int x, int output[]){
     } 
   
     // Getting the recursive answer 
-    int smallAns = allIndexes(input + 1, 
-                                    size - 1, x, output); 
+    int smallAns = allIndexes(input + 1, size - 1, x, output); 
   
     // If the element at index 0 is equal 
     // to x then add 1 to the array values 

@@ -33,7 +33,7 @@ if ( size==0)
     if (input[size-1] == x)
         return size-1;
     else
-        lastIndex(input, size-1, x);
+       return lastIndex(input, size-1, x);
 }
 
 int main(){

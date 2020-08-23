@@ -26,8 +26,6 @@ Sample Output 0:
 #include<bits/stdc++.h>
 using namespace std;
 int main() {
-
-	// Write your code here
 	int i, n;
 	cin >> n;
 	int* arr = new int[n];

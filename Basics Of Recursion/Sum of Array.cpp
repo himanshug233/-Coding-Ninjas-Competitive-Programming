@@ -28,13 +28,13 @@ Sample Output 2 :
 using namespace std;
 
 int sum(int input[], int n) {
-    if (n==0){
+       if(n == 0){
         return 0;
     }
-    
-   return sum(input, n -1) + input[n-1];
+    //return input[0] + sum(input+1,n-1);
+    //return input[n-1] + sum(input,n-1);
+    return sum(input+1,n-1) + input[0];
 }
-
 
 int main(){
     int n;
